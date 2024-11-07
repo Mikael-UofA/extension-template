@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Name",
+    "version": "x.x.x",
+    "author": "@gmail.com",
+    "description": "Placeholder",
+    "action": {
+        "default_popup": "popup/popup.html",
+        "default_icon": {
+            "16": "images/small_logo.png",
+            "48": "images/small_logo.png",
+            "128": "images/logo.png"
+        },
+        "default_title": "Run"
+    },
+    "background": {
+        "service_worker": "misc/background.js", 
+        "type": "module"
+    },
+    "permissions": [
+        "storage",
+        "debugger"
+    ],
+    "icons": {
+        "16": "images/small_logo.png",
+        "48": "images/small_logo.png",
+        "128": "images/logo.png"
+    }
+}
